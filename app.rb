@@ -2,6 +2,7 @@
 
 require_relative "advice"
 require_relative "monroe"
+require "sinatra"
 
 class App < Monroe
   def call(env)
